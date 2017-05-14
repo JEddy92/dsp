@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Both -- I had anaconda set up already with 2.7 and wanted to preserve it to prevent the need to change past work. So I created an anaconda environment with 3.6 to use as well.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+From the command line, python --version
 
  
 
