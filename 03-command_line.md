@@ -19,7 +19,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* **pwd** show current working directory path
+* **mkdir exampledir** creating a directory
+* **rmdir exampledir** deleting a directory
+* **touch example.txt** creating a file using `touch` command
+* **rm example.txt** deleting a file
+* **mv example.txt example2.txt** renaming a file
+* **ls -a** listing hidden files
+* **cp exampledir/example.txt exampledir2** copying a file from one directory to another
+* **top** show running processes within environment
+* **grep** search for pattern matches in files
+* **man** read documentation about commands
+* **chmod** modify rwx file permissioning 
+* **ssh** log into a remote host - for example, access an AWS instance
 
 ---
 
