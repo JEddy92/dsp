@@ -60,11 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-**ls -R** list contents including contents of subdirectories as well, recursively
-**ls -d** list directories only
-**ls -m** list contents as comma seperated list
-**ls -1** list contents on individual lines
-**ls -r** list contents with order reversed
+* **ls -R** list contents including contents of subdirectories as well, recursively
+* **ls -d** list directories only
+* **ls -m** list contents as comma seperated list
+* **ls -1** list contents on individual lines
+* **ls -r** list contents with order reversed
 
 ---
 
