@@ -22,7 +22,11 @@ Another interesting semantic difference is that lists are typically meant to be 
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Both lists and sets are collections of elements. However, they have a bunch of differences -- lists are ordered while sets are unordered, lists allow duplicate elements while sets only collect unique elements, and list elements can be mutable while set elements must be immutable. Because of the latter requirement for sets, the elements they hold are all hashable, allowing sets to use hashtable lookup: set lookup is then more efficient because it is nearly constant time vs. list lookup which is linear in the number of elements (sets have O(1) lookup vs. O(n) for lists).
+
+Suppose that I'm monitoring activity on a specific webpage, and want to answer 2 questions: 1) for some hour long period, how many visitors were there in each minute? 2) what were all the distinct usernames that visited the page? 
+
+For 1), I could store a list of length 60. This would allow me to order number of visitors per minute over time and store duplicate values in number of visitors. However, for 2) I don't care about order and have no reason to track duplicate values, so a set would be a more efficient form of storage.  
 
 ---
 
