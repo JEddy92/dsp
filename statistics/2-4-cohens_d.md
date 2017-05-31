@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> On average, first babies are lighter than others, with a Cohen's D statistic of approximately -0.089. This shows a larger effect size than the difference in pregnancy length between first babies and others, where the Cohen's D statistic is approximately 0.029.
+>> On average, first babies are lighter than others, with a Cohen's D statistic of approximately -0.089. This shows a ~3 times larger effect size than the difference in pregnancy length between first babies and others, where the Cohen's D statistic is approximately 0.029.
 
 >> The block of code below follows the textbook for setup, then compares mean weights for first babies vs. others, showing that the mean weight of first babies is less than the mean weight of others. 
 
