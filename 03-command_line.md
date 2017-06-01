@@ -19,32 +19,32 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-`pwd` show current working directory path  
-`mkdir` (e.g. mkdir exampledir) creating a directory  
-`rmdir` (e.g. rmdir exampledir) deleting a directory  
-`touch` (e.g. touch example.txt) creating a file using `touch` command  
-`rm` (e.g. rm example.txt) deleting a file  
-`mv` (e.g. mv example.txt example2.txt) renaming a file  
-`ls -a` listing hidden files  
-`cp` (e.g. cp exampledir/example.txt exampledir2) copying a file from one directory to another  
-`top` show running processes within environment  
-`grep` search for pattern matches in files  
-`man` read documentation about commands  
-`chmod` modify rwx file permissioning   
-`ssh` log into a remote host - for example, access an AWS instance
+* `pwd` show current working directory path  
+* `mkdir` (e.g. mkdir exampledir) creating a directory  
+* `rmdir` (e.g. rmdir exampledir) deleting a directory  
+* `touch` (e.g. touch example.txt) creating a file using `touch` command  
+* `rm` (e.g. rm example.txt) deleting a file  
+* `mv` (e.g. mv example.txt example2.txt) renaming a file  
+* `ls -a` listing hidden files  
+* `cp` (e.g. cp exampledir/example.txt exampledir2) copying a file from one directory to another  
+* `top` show running processes within environment  
+* `grep` search for pattern matches in files  
+* `man` read documentation about commands  
+* `chmod` modify rwx file permissioning   
+* `ssh` log into a remote host - for example, access an AWS instance
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls` list contents of the current working directory  
-`ls -a` list contents including hidden files (which start with a '.')  
-`ls -l` long format, i.e. showing rwx file permissions  
-`ls -lh` long format with file sizes in an interpretable format  
-`ls -lah` long format with interpretable file sizes, including hidden files  
-`ls -t` sorted by date/time (most to least recent)   
-`ls -Glp` colored format, long format with permissions, directories shown with /    
+* `ls` list contents of the current working directory  
+* `ls -a` list contents including hidden files (which start with a '.')  
+* `ls -l` long format, i.e. showing rwx file permissions  
+* `ls -lh` long format with file sizes in an interpretable format  
+* `ls -lah` long format with interpretable file sizes, including hidden files  
+* `ls -t` sorted by date/time (most to least recent)   
+* `ls -Glp` colored format, long format with permissions, directories shown with /    
  
 ---
 
@@ -68,6 +68,6 @@ What does `xargs` do? Give an example of how to use it.
 
 >> An example use would be executing a remove command on all .txt files in a directory -- first use a `find` command with a wildcard, and pipe the output to `xargs rm` as below:
 
-`find . -name "*.txt" | xargs rm`
+>> `find . -name "*.txt" | xargs rm`
  
 
