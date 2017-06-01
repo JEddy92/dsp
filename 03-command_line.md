@@ -64,9 +64,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` converts a standard input stream to arguments used by another command and executes the command with these arguments. It can be used as a workaround with commands that normally disregard STDIN and to pass an arbitrarily long list of parameters to a command (sometimes number of parameters is limited).
+>> `xargs` converts a standard input stream to arguments used by another command and executes the command with these arguments. It can be used as a workaround with commands that normally disregard STDIN and to pass an arbitrarily long list of parameters to a command (sometimes number of parameters is limited).
 
-An example use would be executing a remove command on all .txt files in a directory -- first use a `find` command with a wildcard, and pipe the output to `xargs rm` as below:
+>> An example use would be executing a remove command on all .txt files in a directory -- first use a `find` command with a wildcard, and pipe the output to `xargs rm` as below:
 
 `find . -name "*.txt" | xargs rm`
  
