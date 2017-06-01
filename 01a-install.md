@@ -48,7 +48,7 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> Both -- I had anaconda set up already with 2.7 and wanted to preserve it to prevent the need to change past work. So I created an anaconda environment with 3.6 to use as well.
+>> Both -- I had anaconda set up already with 2.7 and wanted to preserve it to prevent the need to change past work. So I created an anaconda environment with 3.6 to use as well (will plan to only use python 3).
 
 ### Q2. Which Python Version Installed   
 
