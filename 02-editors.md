@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'm planning to mostly use vim. I have experience with using it in programming courses in college so I feel very comfortable / familiar with it. It also seems to strike a good balance between the limited scope of nano and the complexity / learning curve of emacs. 
 
 --
 
@@ -89,6 +89,12 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'm planning to use spyder. I have some experience using it and have been very happy with the results so far. I find the interface combining the editor, the IPython console, and the file/variable explorer to be very useful and intuitive. It's nice to be able to use and interact with the code directly in the console in order to test and debug, and variable explorer is a great tool for keeping track of many complex variables and their contents. For example, I've found variable explorer to make life much easier when working with a bunch of data frames with many columns - it's easy to lose track of what all the columns are called, what their type is, what their typical values are, etc. The base setup works really well for me so I haven't customized it yet. 
 
+>> Useful keyboard shortcuts include:
+* `F5` runs the file being edited
+* `F9` runs only the selected code block
+* `CMD + i` to open documentation on an object
+* `CTRL + space` for autocompletion
+* `ALT + up/down` to move selected lines of code up or down
  
