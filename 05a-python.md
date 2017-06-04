@@ -42,7 +42,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 return sorted(tuples, key = lambda tup: tup[-1])
 ```
 
->> Other common use cases include passing anonymous functions to `map`, `filter`, and `reduce`. For example, the code below shows how you could extract a sublist of strings starting with s from a list of strings, using filter and a lambda function.
+>> Other common use cases include passing anonymous functions to `map`, `filter`, and `reduce`. For example, the code below shows how you could extract a sublist of strings starting with 's' from a list of strings, using filter and a lambda function.
 
 ```python
 return list(filter(lambda s: s[0] == 's',str_list)) 
@@ -54,7 +54,20 @@ return list(filter(lambda s: s[0] == 's',str_list))
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are a syntax tool for list construction that allow certain code tasks to be both more readable and more efficient. They are designed to closely mirror mathematical set notation in terms of specifying elements -- for example, think along the lines of S = {2x; x in X} or S = {x | xmod2 = 0; x in X} (the set of all elements in X multipled by 2, the set of all elements in X divisible by 2). For the first of these, the list comprehension equivalent would be `S = [2 * x for x in X]`; for the second, the equivalent would be `S = [x for x in X if x % 2 == 0]`. The outer brackets indicate that we are creating a new list, we specify an expression defining the elements of the new list (first clause), we specify a list to iterate over when evaluating the expression (for clause), and we possibly give a conditional expression to filter the list iterated over (if clause). 
+
+>> Some more examples are below: the first line gives code for getting all strings in a list that start with 's' and capitalizing them; the second line gives code for getting the cubes of all numbers from 1 to 10.
+
+```python
+return [s.capitalize() for s in str_list if s[0] == 's']
+return [i**3 for i in range(1,11)]
+```
+>> The `map` and `filter` equivalents for these list comprehensions would be:
+
+```python
+return list(map(lambda s: s.capitalize(), filter(lambda s: s[0] == 's',str_list)))
+return list(map(lambda x: x**3, range(1,11)))
+```
 
 ---
 
