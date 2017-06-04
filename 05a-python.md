@@ -36,13 +36,13 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> The `lambda` keyword allows you to define anonymous functions with the syntax `lambda args: expression`, using any number of arguments and one expression. Anonymous means that the function is not defined in the usual `def name(args):`, syntax that allows it to be called by name later (if you want to use an anonymously defined function repeatedly, you would have to store it in a function variable). This is useful when you don't want to store a function for long term use, and is especially useful when you want to create a function on the fly to be passed as a variable to another function.
 
-For example, the built-in `sorted` function takes an optional function-valued argument 'key' that specifies an evaluation function to sort by. Borrowing from the solution to part of question 7, the code below shows how to sort a list of tuples by the last element in the tuple using a lambda keyword function.   
+>> For example, the built-in `sorted` function takes an optional function-valued argument 'key' that specifies an evaluation function to sort by. Borrowing from the solution to part of question 7, the code below shows how to sort a list of tuples by the last element in the tuple using a lambda keyword function.   
 
 ```python
 return sorted(tuples, key = lambda tup: tup[-1])
 ```
 
-Other common use cases include passing anonymous functions to `map`, `filter`, and `reduce`. For example, the code below shows how you could extract a sublist of strings starting with s from a list of strings, using filter and a lambda function.
+>> Other common use cases include passing anonymous functions to `map`, `filter`, and `reduce`. For example, the code below shows how you could extract a sublist of strings starting with s from a list of strings, using filter and a lambda function.
 
 ```python
 return list(filter(lambda s: s[0] == 's',str_list)) 
