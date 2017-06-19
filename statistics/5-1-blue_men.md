@@ -12,7 +12,7 @@ cm_upper = cm_per_inch * (6 * 12 + 1)
 
 ```python
 import scipy.stats
-density = scipy.stats.norm.cdf(cm_upper, loc=178, scale=7.7) 
+density = scipy.stats.norm.cdf(cm_upper, loc=178, scale=7.7) \
         - scipy.stats.norm.cdf(cm_lower, loc=178, scale=7.7)
 print("The percentage of the male population in the Blue Man Group range is: %.2f%%" % (density * 100))
 ```
