@@ -97,7 +97,20 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> This is a very broad question, and the context of frequentism vs. Bayesianism can range from differences in approach to model construction to divergent philosophies of the interpretation of a probability. 
+
+>> In the latter case, frequentists treat probabilities as parameters that represent long run frequencies of an event given many repeated trials. Probability parameters are fixed while data is variable, and the available data on event trials are used to create estimates of these parameters (e.g. Maximum Likelihood Estimators) -- theoretically, the more data available, the more confidence one can have that a parameter estimate is close to the truth.
+
+>> On the other hand, for Bayesians probabilities represent degrees of belief about an event outcome and are never viewed as fixed parameters. Data are fixed, and are used to inform the distribution of plausible values for probability parameters (Baye's theorem being a clear expression of how to update prior hypothesis probabilities based on realized data to arrive at posterior hypothesis probabilities). Due to this interpretation, a Bayesian approach to modeling requires the use of prior probabilities -- it's interesting to note that frequentist MLEs can be interpreted as Bayesian parameter models where the prior parameter distribution is uniform.
+
+>> Many people argue that frequentism is a poor fit for statistics in the context of science because it is answering the "wrong questions". Frequentist confidence intervals express the range of likely outcomes given repeated experiments with *data like this*, rather than the range of likely outcomes given an array of *plausible data sets*. To find the latter range, one would need to use Bayesian credible intervals that are derived from priors on parameters and the realized data. However, the obvious problem with the Bayesian approach is that it relies on a suitable choice of prior, which may be a very difficult problem in a domain with little preexisting knowledge. A poorly chosen prior could have a very distortionary effect on the interpretation of the realized data.      
+
+>> In practice, it is probably most useful to view both approches as a means to an end rather than in terms of hardline philosophical divisions. Depending on the problem area and available information either approach could be more appropriate or more useful. Here are several real world examples of where one or the other approach might bring us closer to the truth: 
+
+>> 1. Before the harms of smoking were well understood, a bayesian approach to research on its health impacts might use an overly conservative prior. In this case, the blank slate approach of frequentism could be the clearest way to quickly identify how much harm smoking causes.
+>> 2. If a medical patient is showing symptoms of a particularly rare disease that requires treatment that could cause harm in other ways, medical practioners should be bayesians and consider the prior range of plausible conditions that could cause these symptoms before jumping to conclusions. They may be succumbing to bias and missing a treatment plan more likely to work and less likely to cause harm.
+>> 3. Suppose a group is trying to project how long a project will take to complete, and has previously completed several other projects very quickly. With only a small sample size of past projects specific to this group and no clear mapping of those projects to the current one, it may be prudent to take a bayesian approach and consider the distribution of project lengths for many similar projects done by other groups instead of using a frequentist MLE based only on this specific team's track record. The specific track record can be used as data in the bayesian approach to derive posterior distributions.
+
 
 ---
 
