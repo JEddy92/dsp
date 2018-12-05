@@ -9,7 +9,7 @@ line and get output like `git version 2.13.5`.
 Macbooks have git pre-installed.
 
 
-### Install [Anaconda](http://continuum.io/downloads).
+### Install [Anaconda](https://www.anaconda.com/download/#macos).
 
 Please install the **3.6 version** if possible.
 
